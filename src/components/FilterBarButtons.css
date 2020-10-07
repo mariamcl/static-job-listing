@@ -1,0 +1,17 @@
+.Filter-Bar {
+    background-color: #EFFAFA;
+    padding: 1em 1.5em;
+}
+
+.Filter-Button {
+    background-color: #EEF6F6;
+    margin-right: .25em;
+    margin-left: .25em;
+    padding: .25em .25em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 8px 0 #1E2929;
+    font-size: 15px;
+    font-family: 'Spartan'
+}
