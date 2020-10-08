@@ -1,9 +1,8 @@
 // returns the conditoinal styles for the Filter Bar
 export const handleFilterBarStyle = (isMobile, hasFilters) => {
     const styles = {
-      padding: "1em 1.5em",
-      borderRadius: "2px",
-      marginBottom: "20px",
+      padding: '1em 1.5em',
+      marginBottom: '20px',
       borderRadius: '5px'
     }
     if (isMobile) {
@@ -24,7 +23,6 @@ export const handleListingStyle = (isMobile, isFeatured) => {
     const styles = {
         backgroundColor: 'white',
         padding: '1em 1.5em',
-        borderRadius: '2px',
         marginBottom: '20px',
         boxShadow: '5px 10px #EEF6F6',
         borderRadius: '5px'
@@ -38,7 +36,7 @@ export const handleListingStyle = (isMobile, isFeatured) => {
     }
 
     if (isFeatured) {
-        styles.borderLeft = "5px solid #049A9A";
+        styles.borderLeft = '5px solid #049A9A';
     }
     return styles;
   };
