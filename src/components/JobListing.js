@@ -16,7 +16,7 @@ function JobListing(props) {
     <div
       style={handleListingStyle(props.isMobile, props.jobInfo.featured)}
     >
-      <img className="Icon" src={props.jobInfo.logo} style={props.isMobile ? {maxWidth: '50px'} : null}></img>
+      <img className="Icon" alt="icon" src={props.jobInfo.logo} style={props.isMobile ? {maxWidth: '50px'} : null}></img>
       <span className="Job-Info">
         <span className="Company-Info">
           <div className="Company-Name">{props.jobInfo.company}</div>
