@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./FilterBarButtons.css";
+import "./Buttons.css";
 
 // on click, this button will have to add a new FilterButton to the FilterBar
 class FilterButtons extends Component {

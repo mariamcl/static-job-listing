@@ -1,5 +1,5 @@
 import React from "react";
-import "./FilterBarButtons.css";
+import "./Buttons.css";
 import { handleFilterBarStyle } from '../utils/styleUtils';
 
 function FilterBarButtons(props) {
