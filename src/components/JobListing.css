@@ -1,0 +1,62 @@
+.Job-Listing {
+    background-color: white;
+    padding: 1em 1.5em;
+    width: 1000px;
+    height: 100px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    box-shadow: 5px 10px #EEF6F6;
+}
+
+.Icon {
+    float: left;
+}
+
+.Job-Info {
+    margin-left: 25px;
+    float: left;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.Company-Info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.New-Pill {
+    background-color: #049A9A;
+    color: #EEF6F6;
+    border-radius: 10px;
+    font-size: 12px;
+    padding: 6px;
+    margin-right: 10px;
+}
+
+.Featured-Pill {
+    background-color: #1E2929;
+    color: #EEF6F6;
+    border-radius: 10px;
+    font-size: 12px;
+    padding: 6px;
+}
+
+.Company-Name {
+    color: #049A9A;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+.Position {
+    padding-bottom: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #1E2929;
+}
+
+.Position:hover {
+    color: #049A9A;
+}

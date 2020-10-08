@@ -1,17 +1,64 @@
 .Filter-Bar {
-    background-color: #EFFAFA;
     padding: 1em 1.5em;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+
+.Filter-Bar-Button {
+    background-color: #EEF6F6;
+    float: left;
+    margin-right: .25em;
+    margin-left: .25em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 0em;
+    cursor: pointer;
+    font-weight: 500;
+    color:#049A9A;
+    padding: 5px;
 }
 
 .Filter-Button {
     background-color: #EEF6F6;
+    float: right;
     margin-right: .25em;
     margin-left: .25em;
-    padding: .25em .25em;
     text-align: center;
     text-decoration: none;
     border-radius: 5px;
-    box-shadow: 3px 3px 8px 0 #1E2929;
     font-size: 15px;
-    font-family: 'Spartan'
+    border: 0em;
+    cursor: pointer;
+    font-weight: 500;
+    color:#049A9A;
+    padding: 5px;
+}
+
+.Filter-Button:hover {
+    background-color:#049A9A;
+    color: #EEF6F6;
+}
+
+
+.Remove-Icon {
+    background-color: #049A9A;
+    height: inherit;
+    width: 10px;
+    padding: .25em .25em .25em .25em;
+    float: right;
+    border-radius: 5px;
+    margin-left: 0.5em;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.Remove-Icon:hover {
+    background-color:  #1E2929;
+  }
+
+:focus {
+    outline: none !important;
 }
