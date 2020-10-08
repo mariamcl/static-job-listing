@@ -1,3 +1,4 @@
+// returns the conditoinal styles for the Filter Bar
 export const handleFilterBarStyle = (isMobile, hasFilters) => {
     const styles = {
       padding: "1em 1.5em",
@@ -16,6 +17,7 @@ export const handleFilterBarStyle = (isMobile, hasFilters) => {
     return styles;
   };
 
+// returns the conditoinal styles for a Job Listing
 export const handleListingStyle = (isMobile, isFeatured) => {
     const styles = {
         backgroundColor: 'white',
