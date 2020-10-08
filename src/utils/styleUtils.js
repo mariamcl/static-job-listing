@@ -3,7 +3,8 @@ export const handleFilterBarStyle = (isMobile, hasFilters) => {
     const styles = {
       padding: "1em 1.5em",
       borderRadius: "2px",
-      marginBottom: "10px",
+      marginBottom: "20px",
+      borderRadius: '5px'
     }
     if (isMobile) {
       styles.width = '300px';
@@ -12,7 +13,8 @@ export const handleFilterBarStyle = (isMobile, hasFilters) => {
     }
 
     if (hasFilters) {
-      styles.backgroundColor = 'white'
+      styles.backgroundColor = 'white';
+      styles.boxShadow = '5px 10px #EEF6F6';
     }
     return styles;
   };
@@ -23,8 +25,9 @@ export const handleListingStyle = (isMobile, isFeatured) => {
         backgroundColor: 'white',
         padding: '1em 1.5em',
         borderRadius: '2px',
-        marginBottom: '10px',
-        boxShadow: '5px 10px #EEF6F6'
+        marginBottom: '20px',
+        boxShadow: '5px 10px #EEF6F6',
+        borderRadius: '5px'
     }
     if (isMobile) {
       styles.width = '300px';
