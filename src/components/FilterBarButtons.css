@@ -1,65 +1,56 @@
-.Filter-Bar {
-    padding: 1em 1.5em;
-    border-radius: 2px;
-    margin-bottom: 10px;
-    width: 1000px;
-}
-
 .Filter-Bar-Button {
-    background-color: #EEF6F6;
-    float: left;
-    margin-right: .25em;
-    margin-left: .25em;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 15px;
-    border: 0em;
-    cursor: pointer;
-    font-weight: 500;
-    color:#049A9A;
-    padding: 5px;
+  background-color: #eef6f6;
+  float: left;
+  margin-right: 0.25em;
+  margin-left: 0.25em;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 15px;
+  border: 0em;
+  cursor: pointer;
+  font-weight: 500;
+  color: #049a9a;
+  padding: 5px;
 }
 
 .Filter-Button {
-    background-color: #EEF6F6;
-    float: right;
-    margin-right: .25em;
-    margin-left: .25em;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 15px;
-    border: 0em;
-    cursor: pointer;
-    font-weight: 500;
-    color:#049A9A;
-    padding: 5px;
+  background-color: #eef6f6;
+  margin-right: 0.25em;
+  margin-left: 0.25em;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 15px;
+  border: 0em;
+  cursor: pointer;
+  font-weight: 500;
+  color: #049a9a;
+  padding: 5px;
 }
 
 .Filter-Button:hover {
-    background-color:#049A9A;
-    color: #EEF6F6;
+  background-color: #049a9a;
+  color: #eef6f6;
 }
 
-
 .Remove-Icon {
-    background-color: #049A9A;
-    height: inherit;
-    width: 10px;
-    padding: .25em .25em .25em .25em;
-    float: right;
-    border-radius: 5px;
-    margin-left: 0.5em;
-    margin-right: 0;
-    margin-bottom: 0;
-    margin-top: 0;
+  background-color: #049a9a;
+  height: inherit;
+  width: 10px;
+  padding: 0.25em 0.25em 0.25em 0.25em;
+  float: right;
+  border-radius: 5px;
+  margin-left: 0.5em;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 .Remove-Icon:hover {
-    background-color:  #1E2929;
-  }
+  background-color: #1e2929;
+}
 
 :focus {
-    outline: none !important;
+  outline: none !important;
 }

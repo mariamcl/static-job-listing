@@ -12,6 +12,7 @@ class FilterButtons extends Component {
     return this.props.values.map(value => (
       <button
         className="Filter-Button"
+        style={this.props.isMobile ? {marginTop: '10px'} : {float: 'right'}}
         key={value}
         onClick={() => {
           this.props.addFilter(filters => {

@@ -1,23 +1,18 @@
 import React from "react";
 import "./FilterBarButtons.css";
+import { handleFilterBarStyle } from '../utils/styleUtils';
 
 function FilterBarButtons(props) {
   const clearButton =
     props.filters.length > 0 ? (
-      <button className="Filter-Button" onClick={() => props.clearFilters()}>
+      <button className="Filter-Button" style={{float: 'right'}} onClick={() => props.clearFilters()}>
         clear
       </button>
     ) : null;
+
   return (
     <div
-      className="Filter-Bar"
-      style={
-        props.filters.length > 0
-          ? {
-              backgroundColor: 'white'
-            }
-          : null
-      }
+      style={handleFilterBarStyle(props.isMobile, props.filters.length > 0)}
     >
       {props.filters.map(filter => (
         <button
@@ -26,7 +21,11 @@ function FilterBarButtons(props) {
           key={filter}
         >
           {filter}
-          <img src={"./images/icon-remove.svg"} className="Remove-Icon" alt="Remove" />
+          <img
+            src={"./images/icon-remove.svg"}
+            className="Remove-Icon"
+            alt="Remove"
+          />
         </button>
       ))}
       {clearButton}

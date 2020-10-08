@@ -63,6 +63,7 @@ function App() {
       <div>
         {filteredJobs.map(job => (
           <JobListing
+            isMobile={isMobile}
             key={job.id}
             filters={filters}
             addFilter={setFilter}

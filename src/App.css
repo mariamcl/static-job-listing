@@ -1,16 +1,11 @@
-html, body {
-  width: 100%;
-  height: 100%;
-}
-
 .App {
   text-align: center;
-  background-color: #EFFAFA;
+  background-color: #effafa;
   display: flex;
   flex-direction: column;
   align-items: center;
   font-size: 15px;
-  color:#1E2929;
+  color: #1e2929;
   background-size: cover;
 }
 
@@ -23,14 +18,14 @@ html, body {
   margin-right: auto;
 }
 
-.attribution { 
+.attribution {
   font-size: 11px;
   text-align: center;
-  position:fixed;
-  bottom:0;
-  padding-bottom: 1em; 
+  position: fixed;
+  bottom: 0;
+  padding-bottom: 1em;
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%); 
+  color: hsl(228, 45%, 44%);
 }
